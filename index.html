@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--daisy and tailwind style-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Title-->
+    <title>ネット回線</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">ネット回線</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span>&#9776;</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>ネット回線会社</h1>
+        <p>chose your plan</p>
+    </section>
+
+    <!-- Main Body Content -->
+    <main class="content">
+        <section class="main-content">
+            <h2>Main Content Area</h2>
+            <p>This is the main body content where you can add articles, text, or images to showcase your content.</p>
+            <p>Make sure to keep the text informative and engaging for your audience.</p>
+        </section>
+
+        <!-- Aside -->
+        <aside class="sidebar">
+            <h3>Sidebar Content</h3>
+            <ul>
+                <li><a href="all-hikari.html" target="_blank">MAX 光</a></li>
+                <li><a href="all-hikari.html" target="_blank">Flex 光</a></li>
+                <li><a href="all-hikari.html" target="_blank">odegaru 光</a></li>
+                
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer> -->
+    <footer class="footer bg-base-200 text-base-content p-10">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="Enter Your Email"
+                class="input input-bordered join-item" />
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
