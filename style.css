@@ -14,7 +14,7 @@ body {
 
 /* Navbar Styles */
 header {
-    background-color: #333;
+    background-color: #f70303;
     color: white;
     padding: 1rem;
 }
@@ -57,7 +57,48 @@ header {
     font-size: 2rem;
     color: white;
 }
-
+/*banner*/
+.banner {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner-content {
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .banner button:hover {
+    background-color: #0069d9;
+  }
+/*banner end*/
 /* Banner Section */
 .banner {
     /* background-image: url('https://example.com/your-banner-image.jpg');
