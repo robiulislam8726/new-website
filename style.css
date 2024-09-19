@@ -137,7 +137,7 @@ main {
 
 .sidebar {
     flex: 1;
-    background-color: #d10ec1;
+    background-color: #f0081b;
     padding: 2rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
@@ -153,7 +153,8 @@ main {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f8b809;
+    font:bolder;
 }
 
 /* Footer */
